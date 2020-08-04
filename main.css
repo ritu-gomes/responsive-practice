@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5E5E5;
+}
+.header{
+    background: #562EFF;
+    color: #ffffff;
+}
+header a{
+    color: #ffffff;
+}
+header .navbar-brand img{
+    width: 42px;
+}
+
+.about{
+    font-weight: 500;
+}
+.nav-item a{
+    font-weight: normal;
+    font-size: 16px;
+}
+nav{
+    width: 65%;
+    margin: auto;
+}
+.profile{
+    width: 51px;
+}
+/*players*/
+.main{
+    background-color: #ffffff;
+    width: 60%;
+    margin: 0 auto;
+}
+.players h2,
+.blogs h2,
+.courses h2{
+    color: #562EFF;
+    text-transform:  capitalize;
+    margin-bottom: 30px;
+}
+.players{
+     margin-top: 30px;
+     padding: 30px;     
+}
+.players::after{
+    content: '';
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: block;
+    border-bottom: 1px solid #D1D1D1;
+}
+.players .img,
+.players h4{
+    display: inline-block;
+    margin: 15px;
+}
+.player1{
+    padding: 20px;
+}
+/* blogs */
+.blogs,
+.courses{
+    padding: 30px;
+}
+.blogs img{
+    width: 177px;
+}
+.blog img,
+.blog .describe{
+    margin: 10px;
+}
+.navbar-toggler{
+    border: none;
+}
+
